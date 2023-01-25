@@ -9,6 +9,7 @@ app.use(express.static("./methods-public"))
 
 // parse form data
 app.use(express.urlencoded({ extended: false }))
+// search url encoded
 
 // parse json
 app.use(express.json())
